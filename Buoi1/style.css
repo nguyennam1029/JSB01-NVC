@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+    font-size: 30px;
+    background-color: rgb(10, 11, 11);
+    text-decoration: dashed;
+}
+
+/* id gọi bằng dấu # */
+#heading {
+    color: aqua;
+    font-size: 100px;
+    text-align: center;
+}
+
+/* class goji bằng dấu . */
+.title {
+    color: rgb(125, 28, 229);
+    font-size: 100px;
+}
+
+/* body {
+    background-color: rgba(120, 22, 22, 0.855);
+} */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 10px solid red;
+}

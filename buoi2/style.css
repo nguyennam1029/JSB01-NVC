@@ -1,0 +1,78 @@
+* {
+    /* reset css  */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* .box {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+
+
+    padding: 10px;
+    border-top: 20px solid red;
+}
+
+.box1 {
+    margin-bottom: 100px;
+    margin-left: 200px;
+} */
+
+/* Muốn cho các thẻ con nằm trong cặp thẻ Divm có class là container thì chúng ta css thẳng vào thẻ div cha đó */
+/* Vì chúng ta mong muốn các thẻ con áp dụng được flex box  */
+
+.container {
+    /* height: 100vh; Tức là chiều cao của viewport (không gian hiển thị của trình duyệt). full màn hình  */
+    height: 100vh;
+
+    /* display: flex; Giúp cho các thẻ con bên trong nó nằm thành hàng ngang với nhau */
+    display: flex;
+    /* flex-direction: column; Hướng dọc */
+
+    /* flex-direction: row; Mặc định hướng nằm ngang  */
+
+    /* flex-direction: column-reverse;*/
+
+    /* justify-content: space-around; */
+
+    /* justify-content: center; căn giữa theo trục chính tức là căn giữa theo chiều ngang ( trục Y ) */
+    justify-content: center;
+
+    /* align-items: flex-end; Căn giữa theo trục phụ tức là nằm dưới cùng của ( trục X ) */
+    align-items: flex-end;
+    /* align-items: center; Căn giữa trục x  */
+
+    flex-wrap: wrap;
+    /* Cho phép xuống dòng khi chiều rộng không đủ chứa các phần tử con  */
+
+
+    /* Tạo khoảng cách GIỮA CÁC PHẦN TỬ GẦN NHAU  */
+    /* GIỐNG  margin nhưng nó thông minh hơn rất nhiều  */
+    gap: 100px;
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: blue;
+
+}
+
+.box2 {
+    background-color: red;
+}
+
+.box3 {
+    background-color: aqua;
+}

@@ -1,0 +1,11 @@
+.info {
+    text-align: center;
+}
+
+.avatar {
+    width: 400px;
+    height: 400px;
+    /* Làm tròn , bo viền  */
+    border-radius: 50%;
+    border: 10px solid red;
+}

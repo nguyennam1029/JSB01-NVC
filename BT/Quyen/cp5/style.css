@@ -1,0 +1,129 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+.menu {
+    display :flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.food-fast {
+    display :flex;
+    justify-content: space-evenly;
+
+}
+.big {
+    margin : 0 auto;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.one {
+    width :300px;
+    height :350px
+}
+.two {
+    width :300px;
+    height :350px   
+}
+.three {
+    width :300px;
+    height :350px
+}
+.four {
+    width :300px;
+    height :350px
+}
+.humberger {
+    max-width: 300px;
+}
+.fast-food{
+    max-width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.center-food {
+    max-width: 300px;
+}
+.end-food {
+    max-width: 
+    300px;
+}
+.hamburger {
+font-family: Georgia, serif;
+text-align: center;
+
+}
+.spaget {
+    font-family: Georgia, serif;
+    text-align: center;
+    
+}
+.salad {
+    font-family: Georgia, serif;
+    text-align: center;
+    
+}
+.bread {
+    font-family: Georgia, serif;
+    text-align: center;
+
+    
+}
+.quyen {
+    font-size: 20px;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding-bottom: 12px;
+    
+}
+.cho {
+
+    font-size: 20px;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.meo {
+    font-size: 20px;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.banh {
+    font-size: 20px;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding-bottom: 12px;
+}
